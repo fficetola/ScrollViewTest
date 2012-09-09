@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIScrollViewDelegate> {
+	UIScrollView* scrollView;
+	UIPageControl* pageControl;
+    BOOL pageControlBeingUsed;
+}
+
+@property (nonatomic, retain) IBOutlet UIScrollView* scrollView;
+@property (nonatomic, retain) IBOutlet UIPageControl* pageControl;
+
+
+- (IBAction) changePage;
 
 @end

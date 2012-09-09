@@ -15,6 +15,9 @@
 		01AFCA7415FCF3830003B7D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AFCA7315FCF3830003B7D0 /* AppDelegate.m */; };
 		01AFCA7715FCF3830003B7D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AFCA7615FCF3830003B7D0 /* ViewController.m */; };
 		01AFCA7A15FCF3830003B7D0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01AFCA7815FCF3830003B7D0 /* ViewController.xib */; };
+		01AFCA8415FCF71B0003B7D0 /* aboutus1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AFCA8115FCF71B0003B7D0 /* aboutus1.png */; };
+		01AFCA8515FCF71B0003B7D0 /* aboutus2.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AFCA8215FCF71B0003B7D0 /* aboutus2.png */; };
+		01AFCA8615FCF71B0003B7D0 /* aboutus0.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AFCA8315FCF71B0003B7D0 /* aboutus0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		01AFCA7515FCF3830003B7D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		01AFCA7615FCF3830003B7D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		01AFCA7915FCF3830003B7D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		01AFCA8115FCF71B0003B7D0 /* aboutus1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutus1.png; sourceTree = "<group>"; };
+		01AFCA8215FCF71B0003B7D0 /* aboutus2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutus2.png; sourceTree = "<group>"; };
+		01AFCA8315FCF71B0003B7D0 /* aboutus0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutus0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +96,23 @@
 		01AFCA6A15FCF3830003B7D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				01AFCA8015FCF6530003B7D0 /* images */,
 				01AFCA6B15FCF3830003B7D0 /* ScrollViewTest-Info.plist */,
 				01AFCA6C15FCF3830003B7D0 /* InfoPlist.strings */,
 				01AFCA6F15FCF3830003B7D0 /* main.m */,
 				01AFCA7115FCF3830003B7D0 /* ScrollViewTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01AFCA8015FCF6530003B7D0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				01AFCA8115FCF71B0003B7D0 /* aboutus1.png */,
+				01AFCA8215FCF71B0003B7D0 /* aboutus2.png */,
+				01AFCA8315FCF71B0003B7D0 /* aboutus0.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +168,9 @@
 			files = (
 				01AFCA6E15FCF3830003B7D0 /* InfoPlist.strings in Resources */,
 				01AFCA7A15FCF3830003B7D0 /* ViewController.xib in Resources */,
+				01AFCA8415FCF71B0003B7D0 /* aboutus1.png in Resources */,
+				01AFCA8515FCF71B0003B7D0 /* aboutus2.png in Resources */,
+				01AFCA8615FCF71B0003B7D0 /* aboutus0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
